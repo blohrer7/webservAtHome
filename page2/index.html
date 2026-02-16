@@ -7,57 +7,70 @@
 <style>
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #0f172a;
-    color: #e2e8f0;
+    font-family: "Poppins", Arial, sans-serif;
+    background: linear-gradient(135deg, #1e1b4b, #0f0f1a);
+    color: #f3f4f6;
 }
 
 .container {
-    max-width: 700px;
-    margin: 80px auto;
-    padding: 40px;
-    background: #1e293b;
-    border-radius: 12px;
-    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    max-width: 720px;
+    margin: 90px auto;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(14px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.6);
     text-align: center;
 }
 
 h1 {
-    margin-bottom: 10px;
-    font-size: 32px;
-    color: #38bdf8;
+    margin-bottom: 15px;
+    font-size: 36px;
+    color: #c084fc;
+    letter-spacing: 2px;
 }
 
 img {
-    width: 120px;
-    margin: 20px 0;
+    width: 110px;
+    margin: 25px 0;
+    filter: drop-shadow(0 0 10px rgba(192,132,252,0.4));
 }
 
 ul {
     list-style: none;
     padding: 0;
+    margin-top: 30px;
 }
 
 li {
-    margin: 12px 0;
+    margin: 16px 0;
 }
 
 a {
+    display: inline-block;
+    padding: 10px 18px;
     text-decoration: none;
-    color: #60a5fa;
+    color: #e9d5ff;
     font-weight: 600;
-    transition: 0.2s;
+    border-radius: 12px;
+    background: rgba(192,132,252,0.1);
+    border: 1px solid rgba(192,132,252,0.3);
+    transition: 0.25s ease;
 }
 
 a:hover {
+    background: rgba(192,132,252,0.25);
     color: #ffffff;
-    letter-spacing: 1px;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(192,132,252,0.4);
 }
 
 .footer {
-    margin-top: 30px;
+    margin-top: 40px;
     font-size: 13px;
     opacity: 0.6;
+    letter-spacing: 1px;
 }
 </style>
 </head>
@@ -65,23 +78,23 @@ a:hover {
 <body>
 <div class="container">
 
-    <h1>🚀 Webserv</h1>
+    <h1> Webserv Hub</h1>
 
     <img src="42_Logo.svg.png" alt="42 Logo">
 
     <ul>
-        <li><a href="a.html">Sub Page A</a></li>
-        <li><a href="subfolder/page.html">Sub Page Inside Subfolder</a></li>
-        <li><a href="upload.html">Upload Test</a></li>
-        <li><a href="upload.php">List Uploaded Files</a></li>
-        <li><a href="info.php">PHP Test</a></li>
-        <li><a href="redirect">Redirect Test</a></li>
-        <li><a href="redirect?xxxx=true">Redirect With Query</a></li>
-        <li><a href="withoutindex">Folder Without Index</a></li>
+        <li><a href="a.html">Section A</a></li>
+        <li><a href="subfolder/page.html">Internal Module</a></li>
+        <li><a href="upload.html">Upload Center</a></li>
+        <li><a href="upload.php">File Overview</a></li>
+        <li><a href="info.php">PHP Environment</a></li>
+        <li><a href="redirect">Redirect Demo</a></li>
+        <li><a href="redirect?xxxx=true">Redirect + Query</a></li>
+        <li><a href="withoutindex">Directory Listing</a></li>
     </ul>
 
     <div class="footer">
-        42 Webserv Project
+        42 Webserv Project • Purple Theme
     </div>
 
 </div>
